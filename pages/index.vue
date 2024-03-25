@@ -1,6 +1,6 @@
 <template>
     <div class="container-fluid">
-        <div class="row ny-5">
+        <div class="row py-5">
             <div class="col-lg-6">
             <nuxt-link to="/pengunjung/tambah">
                 <div class="card bg-pengunjung rounded-5">
@@ -22,7 +22,7 @@
             </div>
         </div>
         <h2>Statistik</h2>
-        <div class="row my-5">
+        <div class="row py-5">
             <div class="col-lg-6">
                 <nuxt-link to="/pengunjung/index.vue">
                 <div class="card pengunjung rounded-5">
@@ -47,6 +47,11 @@
 </template>
 
 <style scoped>
+.container-fluid {
+    /* padding: 0;
+    margin: 0; */
+    background-color: #658694;
+}
 .card {
     height: 250px;
     box-shadow: 1px 1px 10px hsl(0, 0%, 100%)
