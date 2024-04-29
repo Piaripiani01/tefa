@@ -15,7 +15,7 @@
                 <nuxt-link to="/buku">
                 <div class="card bg-buku rounded-5">
                     <div class="card-body">
-                        <h2>card buku</h2>
+                        <h2>cari buku</h2>
                     </div>
                 </div>
                 </nuxt-link>
@@ -23,11 +23,12 @@
         </div>
         <h2>Statistik</h2>
         <div class="row py-5">
+            <nuxt-link to="/pengunjung/index"></nuxt-link>
             <div class="col-lg-6">
-                <nuxt-link to="/pengunjung/index.vue">
+                <nuxt-link to="/pengunjung/index">
                 <div class="card pengunjung rounded-5">
                     <div class="card-body">
-                        <h2>0 Pengunjung</h2>
+                        <h2>Riwayat pengunjung</h2>
                     </div>
                 </div>
                 </nuxt-link>
